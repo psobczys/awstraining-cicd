@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Greet
         id: greet
-        uses: psobczys/custom-hellow@v1
+        uses: psobczys/my-hello-world-action@v1
         with:
           name: ${{ matrix.name }}
       - name: Print action call output
